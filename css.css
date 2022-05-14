@@ -30,52 +30,91 @@ h1{ color: #510F01 ;
       font-size: 16px;
     }
 
+.harina:hover { color: red;
+
+}
 nav{
     text-decoration:none;
     color:inherit;
     font-size:14px;
+    display: flex;
+    justify-content: center;
     }
 
 nav li{
     display:inline-block;
     width:10%;
-    padding:5px 10px;
+    padding:10px 20px;
     background-color:#FF5733;
     border:1px solid #000;
-    text-align:center;
+    text-align: center;
     color:#510F01;
     }
 
-nav li: hover{
+nav li:hover{
     background-color:#FF5733;
     color:#510F01;
     }
 
+.cuerpo{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 section{
-	margin-top: 40px;
-	float: left;
-  padding: 5%;
-    width: 43%;
-    margin: 1%;
-    padding: 10px;
-    box-sizing: border-box;
+    width: 70%;
+    height: auto;
+float: left;
 }
 
 aside {
 	background-color: white;
-  text-align: center;
-       width: 28%;
-       float: right;
-       margin-right: 40px;
-       margin-top: 100px;
-       padding-left: 10px;
-       margin-left: 10px;
-       box-sizing: border-box;
-       justify-content: center;
+  width: 30%;
+  height:auto;
+float: left;
+text-align: center;
 }
+
+.contacto {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color: #510F01;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #FF5733;
+}
+
+.contacto:hover {
+background-color: #510F01;
+}
+
+.volver {
+text-decoration:none;
+font-weight: 600;
+font-size: 20px;
+color:#ffffff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+background-color: #f2595e;
+border-color: #F69DA1;
+border-width: 3px;
+border-style: solid;
+text-align: center;
+}
+
+.volver:hover{
+  background-color:#510F01;
+}
+
 
 footer{
   background-color: white;
+  display: flex;
 justify-content: center;
 text-align: center;
 padding: 1em 0;
@@ -91,7 +130,7 @@ margin-top: auto;
             transition: all 0.8s;
         }
 
-.botonw : hover {
+.botonw:hover {
             background-color: green;
             color: #FFFFFF;
             border-radius: 55%;
